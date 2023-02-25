@@ -1,0 +1,304 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+} */
+.body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#1f2641 ;
+    /* background-color: aqua; */
+    line-height:1.7;
+   
+}
+.man{
+
+    background-color: #4658a1;
+    position: fixed !important;
+    width: 100%;
+}
+.container{
+    margin: 20px 150px 20px 150px;
+  
+}
+.navbar-brand{
+    margin-left: 0px;
+    margin-right: 90px;
+    
+}
+.container a{
+    color: white;
+    font-size: x-large;
+}
+.navbar-nav{
+    margin: 0px 70px 0px 400px ;
+}
+.nav-item{
+    margin-left: 110px;
+}
+.nav-item a{
+    color: white;
+    font-size: x-large; 
+}
+/* form          left --------------------------------------------------        */
+.contact{
+    display: flex;
+    /* margin: 200px 150px 20px 150px; */
+}
+.bo{
+    display: flex;
+    width: 100%;
+}
+.left{
+    margin-top: 180px;
+    margin-left: -1300px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color: #3452c6;
+    height: 530px;
+    width: 400px;
+    
+    border-radius: 40px;
+}
+
+.right{
+    background-color: #3b50a3;
+    margin-top: 250px;
+    margin-right: 150px;
+    height: 390px;
+    width: 1250px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+#imga{
+    height: 240px;
+    width: 300px;
+    margin-left: 50px;
+}
+.left h1{
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: -20px;
+    
+}
+.left p{
+    margin-top: 3px;
+    margin-left: 20px;
+    color: white;
+    padding: 4px;
+}
+.detail a{
+    color: white;
+    
+}
+.phone{
+    margin-left: 20px;
+    
+    margin-bottom: 10px;
+}
+
+.phone .phgft{
+    margin-right: 20px;
+    
+}
+.phone .phgf{
+    margin-right: 20px;
+    
+}
+.phone .phggf{
+    margin-right: 15px;
+    
+}
+.phonee #ad{
+    margin-left: 24px;
+    color: white;
+}
+.phonee a:hover{
+    display: block;
+    margin-left: 24px;
+}
+.phone #ad{
+    margin-left: 4px;
+    color: white;
+}
+.photo{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.socialmedia{
+    margin-right: 20px;
+    border-radius: 20px;
+}
+/* form right---------------------------------------- */
+
+    #fn{
+        margin: 40px 20px 0px 550px;
+        color: white;
+        padding: 1rem;
+        width: 280px;
+        border: 2px solid #4658a1;
+        background-color: #1f2641 ;
+    }
+    #ln{
+        width: 280px;
+        margin-right: 80px;
+        padding: 1rem;
+        border: 2px solid #4658a1;
+        background-color: #1f2641 ;
+        color: white;
+    }
+    #fn::placeholder{
+      color: white;
+      opacity: 0.34;
+      margin-left: 105px;
+      /* padding: 3px; */
+    }
+    #ln::placeholder{
+        color: white;
+        margin-left: 105px;
+        opacity: 0.34;
+
+    }
+    #ea{
+        width: 585px;
+        color: white;
+        padding: 1rem;
+        margin-left: 550px;
+        margin-top: 15px;
+        border: 2px solid #4658a1;
+        background-color: #1f2641 ;
+    }
+    #ea::placeholder{
+        color: white;
+        margin-left: 20px;
+        opacity: 0.34;
+    }
+    #ta{
+        width: 585px;
+        margin-left: 550px;
+        padding: 1rem;
+        margin-top: 15px;
+        margin-bottom: 24px;
+        color: white;
+        border: 2px solid #4658a1;
+        background-color: #1f2641 ;
+        height: 100px;
+        border-radius: 10px;
+    }
+    #ta::placeholder{
+        color: white ;
+        text-align:start;    
+        opacity: 0.34;
+        
+       
+    }
+    
+#mess{
+        margin: 0px 10px 20px 550px;
+        border: 10px solid rgb(249, 3, 3);
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: red;
+        
+    
+    }
+    #mess:hover{
+    
+        background-color: rgb(0, 204, 255);
+        border: 10px solid rgb(0, 204, 255);
+    }
+    .last{
+        background-color: rgb(28, 28, 68);
+       
+    
+    }
+    
+    
+    .footer{
+        display: flex;
+       margin-left: 150px;
+       margin-right: 150px;
+       margin-top: 100px;
+       
+       
+    }
+    .fone{
+       text-align: left;
+       margin: 20px 40px 20px 0px;
+       width: 300px;
+      color: white;
+       /* border: 2px solid red; */
+    }
+    .ftwo{
+        margin: 20px;
+        /* border: 2px solid red; */
+        text-align: left;
+        width: 300px;
+        margin: 20px 40px 20px 0px;
+    color: white;
+    }
+    .fthree{
+        margin: 20px;
+        /* border: 2px solid red; */
+        text-align: left;
+        width: 300px;
+        margin: 20px 40px 20px 0px;
+        color: white;
+    }
+    .four{
+       
+        /* border: 2px solid red; */
+        text-align: left;
+        width: 300px;
+    float: right;
+        margin: 39px 0px 20px 0px;
+        color: white;
+    }
+    .fone h1{
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .ftwo h1{
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .fthree h1{
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .fourh1{
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .fone p{
+        margin: 9px 9px 15px 9px ;
+    }
+    .ftwo p{
+        margin: 9px 9px 15px 9px ;}
+    .fthree p{
+        margin: 0px 0px 13px 9px
+    }
+    .four p{
+        margin: 0px 9px 15px 9px
+    }
+    .ftwo a{
+        color: white;
+        text-decoration: none;
+        margin: 9px 9px 19px 9px ;
+    }
+    .socialmedia{
+        border-radius: 3px;
+        margin: 8px;
+        margin-left: 20px;
+        
+    }
+    
